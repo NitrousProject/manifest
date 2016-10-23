@@ -12,25 +12,25 @@
            sync-j="4" />
 
   <!-- Additional repos for nosp -->
-  <project path="build" name="build" remote="nosp" revision="ng7.0" >
+  <project path="build" name="build" remote="nosp" revision="ng7.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="manifest" name="manifest" remote="nosp" revision="ng7.0" />
-  <project path="external/busybox" name="external_busybox" remote="nosp" revision="ng7.0" />
-  <project path="external/chromium-webview" name="external_chromium-webview" groups="pdk" remote="nosp" revision="ng7.0" />
-  <project path="frameworks/base" name="frameworks_base" remote="nosp" revision="ng7.0" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="nosp" revision="ng7.0" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="nosp" revision="ng7.0" />
+  <project path="manifest" name="manifest" remote="nosp" revision="ng7.1" />
+  <project path="external/busybox" name="external_busybox" remote="nosp" revision="ng7.1" />
+  <project path="external/chromium-webview" name="external_chromium-webview" groups="pdk" remote="nosp" revision="ng7.1" />
+  <project path="frameworks/base" name="frameworks_base" remote="nosp" revision="ng7.1" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="nosp" revision="ng7.1" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="nosp" revision="ng7.1" />
 
   <!-- Device repos -->
-  <project path="device/huawei/angler" name="device_huawei_angler" remote="nosp" revision="ng7.0" />
+  <project path="device/huawei/angler" name="device_huawei_angler" remote="nosp" revision="ng7.1" />
 
   <!-- Kernel repos -->
-  <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="nosp" revision="ng7.0" />
+  <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="nosp" revision="ng7.1" />
 
   <!-- Vendor repos -->
-  <project path="vendor/custom" name="vendor_custom" remote="nosp" revision="ng7.0" />
-  <project path="vendor/huawei" name="vendor_huawei" remote="nosp" revision="ng7.0" />
+  <project path="vendor/custom" name="vendor_custom" remote="nosp" revision="ng7.1" />
+  <project path="vendor/huawei" name="vendor_huawei" remote="nosp" revision="ng7.1" />
 
   <!-- AOSP Repo's -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
